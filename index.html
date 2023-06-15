@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Uncensord Photoraphy</title>
+        <link rel="stylesheet" href="style.css">
+        <!--Font Styles gotten from google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <!--Font from Bootstrapcdn.com-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Logos/Logowhite.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <!--Pasting the close icon from fontawesome.com below-->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutUs.html">ABOUT US</a></li>
+                        <li><a href="packages.html">PACKAGES</a></li>
+                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="bookUs.html">BOOK US</a></li>
+                        <li><a href="account.html">ACCOUNT</a></li>
+                    </ul>
+                </div>
+                <!--Adding the burger menu below-->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Welcome</h1>
+                <p>Uncensord Photoraphy is a complete Photoraphy Studio that captures todays moments and turns them into a Life-Time worth of memories with thee best quality pictures.<br>
+                    We work to give you the best and professional services, and to make sure those Pictures stay as beautiful as the time they were taken.<br>
+                </p>
+                <a href="aboutUs.html" class="hero-btn">Click here to know more about me</a>
+            </div>
+
+        </section>
+
+        <!--Mini Preview with menu // What do we do-->
+        <section class="services">
+            <h1>What Do We Offer?</h1>
+            <p> We Capture Architecture, Beautiful Landscape, Ceremonies, Events, Motor Vehicles, Portraits and Products.</p>
+
+            <div class="row">
+                <div class="services-col">
+                    <h3>COMMERCIAL</h3>
+                        <p> 
+                            Involves taking photographs of products, services, or people.<br> 
+                            With the intention of using them for commercial purposes, such as advertising and marketing.
+                        </p>
+                </div>
+                <div class="services-col">
+                    <h3>WEDDING</h3>
+                        <p>
+                            We love capturing moments where two families unite into one.<br>
+                            It is the biggest day of your life and we would love to make it more Beautiful for you by capturing every moment.
+                        </p>
+                </div>
+                <div class="services-col">
+                    <h3>FASHION</h3>
+                    <p>
+                        Since this is a genre that captures the beauty of clothes and accessories of the fashion industry.<br>
+                        We like to partake in this genre in order to showcase the models beauty and our own skills.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Short Cut To Packages//Portfolio//BOOK US-->
+        <section class="document">
+            <h1>WHY DOCUMENT PHOTOGRAPHY</h1>
+            <p>
+                Choosing To Document your special day, is getting the opportunity to tell the real story through pictures<br>
+                This allows you to enjoy the moment with your loved ones and have no worries about who will capture these moments<br>
+                During the moment, there are different emotions happening in different moments, which I will capture as this is our passion.
+            </p>
+
+            <div class="row">
+
+                <div class="services-col">
+                    <img src="Pictures/birthdayCelebration3.jpg">
+                    <div class="layer">
+                        <h3><a class='btn btn-link'  href='#' style="width: 100%;
+                            font-weight: 500;
+                            color: whitesmoke;
+                            font-size: 26px;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            position: absolute;
+                            text-decoration: none;
+                            transition: 0.5s">PACKAGES</a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="services-col">
+                    <img src="Pictures/mlambo1.jpg">
+                    <div class="layer">
+                        <h3><a class='btn btn-link'  href='portfolio.html' style="width: 100%;
+                            font-weight: 500;
+                            color: whitesmoke;
+                            font-size: 26px;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            position: absolute;
+                            text-decoration: none;
+                            transition: 0.5s">PORTFOLIO</a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="services-col">
+                    <img src="Pictures/mrsPeng1.jpg">
+                    <div class="layer">
+                        <h3><a class='btn btn-link'  href='bookUs.html' 
+                            style="width: 100%;
+                            font-weight: 500;
+                            color: whitesmoke;
+                            font-size: 26px;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            position: absolute;
+                            text-decoration: none;
+                            transition: 0.5s">BOOK US</a>
+                        </h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!------------------------------Featured Post-------------------------------->
+
+        <section class="featured">
+            <h1>Featured Post</h1>
+            <p>A walk down through our most recent Photo Shoot Sessions with our Beloved Customers</p>
+
+            <div class="row">
+                <div class="class featured-col">
+                    <img src="Pictures/mnisiBirthday2.jpg">
+                    <h3>Ms Mnisi Birthday Celebration</h3>
+                    <p></p>
+                </div>
+                <div class="class featured-col">
+                    <img src="Pictures/Nonto3.jpg">
+                    <h3>Nontokozo + Samkelo Maternity PhotoShoot</h3>
+                    <p></p>
+                </div>
+                <div class="class featured-col">
+                    <img src="Pictures/birthdayCelebration5.jpg">
+                    <h3>Phethile Birthday Celebration</h3>
+                    <p></p>
+                </div>
+            </div>
+
+        </section>
+        <!-----------Customer Feedback Session---------------------------------->
+        <section class="feedback">
+            <h1>What our Loyal Customers Say:</h1>
+            <p></p>
+
+            <div class="row">
+                 <!--Customer 1-->
+                <div class="feedback-col">
+                    <img src="#">
+                    <div>
+                        <i class="fa fa-quote-left"></i>
+                        <p> Insert Feedback Here</p>
+                        <h3>Vuyo Ngulube</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+               <!--Customer 2-->
+                <div class="feedback-col">
+                    <img src="#">
+                    <div>
+                        <i class="fa fa-quote-left"></i>
+                        <p> Insert Feedback Here</p>
+                        <h3>Vuyo Ngulube</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <!--Customer 3-->
+                <div class="feedback-col">
+                    <img src="#">
+                    <div>
+                        <i class="fa fa-quote-left"></i>
+                        <p> Insert Feedback Here</p>
+                        <h3>Vuyo Ngulube</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!--BOOK US-->
+        <section class="bookus">
+            <h1>Contact Us from wherever you are in the Mpumalanga</h1>
+            <a href="bookUs.html" class="hero-btn">BOOK US</a>
+
+
+        </section>
+
+        <!--------------------------Footer---------------------->
+
+        <section class="footer">
+           <h4>ABOUT US</h4>
+            
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Contact Me On WhatsApp Or Email</h3>
+                            <p>+27 67 195 0205<br>
+                                uncensoredphotography7@gmail.com</p>
+                            <div class="app-logo">
+                                <img src="Logos/whatsAppLogo.png">
+                                <img src="Logos/email.png">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="Logos/Logowhite.jpg">
+                            <p>Uncensord Photoraphy is a complete Photoraphy Studio that captures todays moments and turns them into a Life-Time worth of memories with thee best quality pictures.</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li>Deals</li>
+                                <li>Portfolio</li>
+                                <li>Book Us</li>
+                                <li>Packages</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <div class="icons">
+                                <li><i class="fa fa-facebook"></i>Facebook</li>
+                                <li><i class="fa fa-twitter"></i>Twitter</li>
+                                <li><i class="fa fa-instagram"></i>Instagram</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr> <!--Adding CopyRight -->
+                    <p class="copyright">Copyright 2023 - Uncensord Photoraphy</p>
+                </div>
+            </div>
+
+            Made with <i class="fa fa-github"></i> by Patrick-Jnr Zulu </p>
+
+        </section>
+        <!--Adding the JavaScript Link-->
+        <script src="javascript.js"></script>
+    </body>
+</html>
